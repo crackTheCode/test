@@ -1,25 +1,24 @@
-#inject {
+#inject-container {
 	width: 300px; 
 	height: 100%;
 	position: fixed;
 	top: 0;
 	right: 0; 
 	display: none; 
-	border-left: 
-	1px solid; 
+	border-left: 1px solid; 
 	border-top: 0; 
 	border-bottom: 0;
-	border-left: 0;
+	border-right: 0;
 }
 
-#inject.active {
+#inject-container.inject-active {
 	display: block;
 }
 
-#body-wrapper {
+#inject-body-wrapper {
 	margin-right: 0;
 }
 
-#body-wrapper.active {
+#inject-body-wrapper.inject-active {
 	margin-right: 300px;
 }
