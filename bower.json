@@ -2,8 +2,7 @@
   "name": "inject-tinymce",
   "description": "INJECT Tools for TinyMCE",
   "main": [
-    "js/inject-plugin.js",
-    // "css/motion.scss"
+    "js/inject-plugin.js"
   ],
   "moduleType": [
     "globals"
@@ -23,5 +22,5 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": false
 }
