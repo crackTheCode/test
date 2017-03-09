@@ -1,0 +1,27 @@
+{
+  "name": "inject-tinymce",
+  "description": "INJECT Tools for TinyMCE",
+  "main": [
+    "js/inject-plugin.js",
+    // "css/motion.scss"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "inject",
+    "tinymce"
+  ],
+  "authors": [
+    "INJECT <inject@inject.eu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
